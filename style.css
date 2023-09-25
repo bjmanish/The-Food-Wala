@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Handlee&family=Mooli&display=swap"); 
+*{
+    margin: 0;
+}
+
+body{
+    font-family: Mooli;
+    overflow-x: hidden;
+}
+
+.container{
+    background-color: black;
+    overflow: auto;
+}
+
+.logo p{
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    float: left;
+    padding: 20px;
+}
+.logo p:hover{
+    color: aquamarine;
+}
+
+nav{
+    float: right;
+}
+
+ul li{
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    margin: 20px;
+    font-size: 20px;
+}
+
+ul li a:hover{
+    color: aqua;
+}
+
+.welcome-container{
+    position: relative;
+}
+
+.welcome-container img{
+    width: 100%;
+    height: 500px;
+}
+
+.text-block{
+    height: 60px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #000;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.about {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.about p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.Food{
+   display: table;
+   margin-right: 70px;
+}
+
+.foodwala{
+    width: 20%;
+    padding: 30px;
+    margin-bottom: 30px;
+    height: 300px;
+    float: right;
+    
+}
+.menuBox{
+    width: 80%;
+    padding: 5%;
+    margin: 5%;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.7);
+    border-radius: 20px;
+}
+
+.menuBox img{
+    width: 100%;
+    height: 100%;   
+}
